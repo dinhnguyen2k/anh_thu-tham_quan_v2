@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 2 - Việc không nên làm khi đi tham quan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" data-quiz>
+    <a class="back-home" href="index.html">🏠 Về trang chủ</a>
+
+    <div class="page-title">
+      <span class="badge">Bài 2</span>
+      <h1>Việc không nên làm khi đi tham quan ❌</h1>
+    </div>
+
+    <section class="card guide-card">
+      <p id="guideText" class="guide-text"></p>
+    </section>
+
+    <section id="questionList" class="questions"></section>
+
+    <div class="actions">
+      <button id="checkBtn" class="action-btn primary">🎯 Kiểm tra kết quả</button>
+      <button id="retryBtn" class="action-btn secondary">🔄 Làm lại</button>
+    </div>
+
+    <section id="resultBox" class="result-box" aria-live="polite">
+      <div class="result-icons">😢 🌈 ⭐</div>
+      <h2 id="resultTitle"></h2>
+      <p id="resultText"></p>
+      <p id="scoreLine" class="score-line"></p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+  <script>buildQuiz('bad');</script>
+</body>
+</html>
