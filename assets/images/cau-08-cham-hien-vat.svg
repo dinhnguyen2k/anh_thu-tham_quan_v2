@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" rx="36" fill="#f6efff"/>
+  <rect x="85" y="85" width="630" height="430" rx="28" fill="#ffffff" stroke="#d8c6ff" stroke-width="8"/>
+  <rect x="460" y="250" width="150" height="140" rx="16" fill="#d8ecff"/>
+  <circle cx="535" cy="215" r="52" fill="#ffe17a"/>
+  <path d="M535 165l18 36 40 6-29 28 7 40-36-19-36 19 7-40-29-28 40-6z" fill="#ffd24d"/>
+  <circle cx="240" cy="230" r="68" fill="#ffd89e"/>
+  <rect x="198" y="305" width="84" height="118" rx="28" fill="#ffb6c9"/>
+  <path d="M290 320l120 -35" stroke="#ff7388" stroke-width="12" stroke-linecap="round"/>
+  <path d="M350 140l70 70" stroke="#ff627b" stroke-width="18" stroke-linecap="round"/>
+  <path d="M420 140l-70 70" stroke="#ff627b" stroke-width="18" stroke-linecap="round"/>
+  <text x="400" y="130" text-anchor="middle" font-size="46" font-family="Arial, sans-serif" font-weight="700" fill="#7b59d6">Chạm vào hiện vật</text>
+  <text x="400" y="544" text-anchor="middle" font-size="38" font-family="Arial, sans-serif" font-weight="700" fill="#d54f67">❌ Không nên làm</text>
+</svg>

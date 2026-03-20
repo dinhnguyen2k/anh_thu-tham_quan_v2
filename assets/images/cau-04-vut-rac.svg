@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" rx="36" fill="#fff2de"/>
+  <rect x="90" y="90" width="620" height="390" rx="28" fill="#ffffff" stroke="#ffd188" stroke-width="8"/>
+  <circle cx="280" cy="200" r="70" fill="#ffd89e"/>
+  <rect x="235" y="275" width="90" height="120" rx="30" fill="#73caff"/>
+  <rect x="530" y="300" width="90" height="110" rx="12" fill="#7ddc93"/>
+  <rect x="520" y="280" width="110" height="24" rx="12" fill="#59b772"/>
+  <circle cx="430" cy="360" r="18" fill="#ff7f8f"/>
+  <circle cx="470" cy="385" r="14" fill="#79c8ff"/>
+  <path d="M320 320l85 20" stroke="#d65a6e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M372 164l40 40" stroke="#ff6478" stroke-width="16" stroke-linecap="round"/>
+  <path d="M412 164l-40 40" stroke="#ff6478" stroke-width="16" stroke-linecap="round"/>
+  <text x="400" y="135" text-anchor="middle" font-size="46" font-family="Arial, sans-serif" font-weight="700" fill="#d86a00">Vứt rác bừa bãi</text>
+  <text x="400" y="530" text-anchor="middle" font-size="38" font-family="Arial, sans-serif" font-weight="700" fill="#d84d5c">❌ Không nên làm</text>
+</svg>

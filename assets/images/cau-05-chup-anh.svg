@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" rx="36" fill="#eaf2ff"/>
+  <rect x="70" y="80" width="660" height="440" rx="30" fill="#ffffff" stroke="#b9d4ff" stroke-width="8"/>
+  <rect x="485" y="180" width="160" height="110" rx="18" fill="#5d89f0"/>
+  <rect x="525" y="155" width="55" height="24" rx="10" fill="#ffd34d"/>
+  <circle cx="565" cy="236" r="34" fill="#dff5ff"/>
+  <circle cx="565" cy="236" r="18" fill="#73cdfd"/>
+  <circle cx="245" cy="250" r="70" fill="#ffd89e"/>
+  <rect x="200" y="325" width="90" height="120" rx="30" fill="#ffb6c8"/>
+  <rect x="130" y="150" width="180" height="70" rx="20" fill="#eafbf1" stroke="#7ad39a" stroke-width="6"/>
+  <text x="220" y="195" text-anchor="middle" font-size="34" font-family="Arial, sans-serif" font-weight="700" fill="#2f9b57">Cho phép chụp ảnh</text>
+  <text x="400" y="120" text-anchor="middle" font-size="44" font-family="Arial, sans-serif" font-weight="700" fill="#3f69d9">Chụp ảnh đúng nơi cho phép</text>
+  <text x="400" y="545" text-anchor="middle" font-size="38" font-family="Arial, sans-serif" font-weight="700" fill="#2f9b57">✅ Rất văn minh</text>
+</svg>

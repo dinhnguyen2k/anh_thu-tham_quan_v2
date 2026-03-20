@@ -1,47 +1,72 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bé học nội quy khi đi tham quan</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Bài tập tương tác cho học sinh lớp 2: phân biệt việc nên làm và không nên làm khi đi tham quan." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <section class="hero">
-      <div>
-        <div class="sparkles">
-          <span>⭐ Vui học</span>
-          <span>😊 Dễ nhớ</span>
-          <span>🎉 Tương tác</span>
-        </div>
-        <h1>Bé học nội quy khi đi tham quan</h1>
-        <p>Chào mừng các bạn nhỏ lớp 2 đến với khu vui học thật sinh động! Hãy chọn 1 bài để cùng chơi, cùng học và trở thành <strong>bé tham quan văn minh</strong> nhé! 🌈</p>
-      </div>
-      <div class="hero-image">
-        <img src="assets/images/home.svg" alt="Minh họa bạn nhỏ đi tham quan vui vẻ và giữ nội quy.">
-      </div>
-    </section>
-
-    <section class="menu-grid">
-      <a class="big-link link-good" href="nen-lam.html">
-        <div>
-          <h2>Bài 1: Việc nên làm</h2>
-          <p>Chọn dấu ✅ cho những việc đúng khi đi tham quan.</p>
-        </div>
-        <div class="emoji">✅🏆</div>
-      </a>
-
-      <a class="big-link link-bad" href="khong-nen-lam.html">
-        <div>
-          <h2>Bài 2: Việc không nên làm</h2>
-          <p>Chọn dấu ❌ cho những việc chưa đúng khi đi tham quan.</p>
-        </div>
-        <div class="emoji">❌🌈</div>
-      </a>
-    </section>
-
-    <p class="footer-note">Mỗi bài là một trang riêng, học xong bài này có thể mở bài kia ngay nhé! 😊</p>
+  <div class="page-stars" aria-hidden="true">
+    <span>⭐</span><span>🌈</span><span>🎉</span><span>😊</span><span>🏆</span>
   </div>
+
+  <header class="hero">
+    <div class="hero__content container">
+      <div class="hero__badge">🌟 Trò chơi học tập lớp 2</div>
+      <h1>Bé học nội quy khi đi tham quan</h1>
+      <p class="hero__desc">Chọn đúng để trở thành <strong>siêu bé ngoan</strong> nhé!</p>
+      <div class="hero__guide">
+        👉 Con hãy nhìn tranh và chọn xem việc này là <strong>nên làm</strong> hay <strong>không nên làm</strong> nhé!
+      </div>
+
+      <section class="scoreboard" aria-label="Bảng tiến độ">
+        <div class="score-chip">✅ Đúng: <span id="correctCount">0</span>/10</div>
+        <div class="score-chip">🎯 Đã hoàn thành: <span id="completedCount">0</span>/10</div>
+      </section>
+
+      <section class="progress-card" aria-label="Thanh tiến độ bài làm">
+        <div class="progress-card__top">
+          <span>Tiến độ siêu bé ngoan</span>
+          <strong id="progressText">0%</strong>
+        </div>
+        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="progress-bar__fill" id="progressFill"></div>
+        </div>
+      </section>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <section class="game-panel">
+      <div class="section-title">
+        <h2>🎮 10 thử thách tham quan</h2>
+        <p>Mỗi câu có thể kiểm tra riêng. Chọn trước, rồi bấm <strong>"Kiểm tra câu này"</strong> nhé!</p>
+      </div>
+      <div id="questionList" class="question-list"></div>
+    </section>
+
+    <section class="actions-panel">
+      <button id="retryWrongBtn" class="big-action-btn secondary" type="button">🔁 Làm lại câu sai</button>
+      <button id="resetAllBtn" class="big-action-btn" type="button">🌈 Làm lại từ đầu</button>
+    </section>
+  </main>
+
+  <section id="resultBanner" class="result-banner hidden" aria-live="polite"></section>
+
+  <div id="confettiLayer" class="confetti-layer" aria-hidden="true"></div>
+  <div id="sparkleLayer" class="sparkle-layer" aria-hidden="true"></div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>💖 Học vui mỗi ngày - Bé ngoan khi đi tham quan! 💖</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

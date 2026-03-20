@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" rx="36" fill="#fff7e8"/>
+  <rect x="70" y="100" width="660" height="400" rx="28" fill="#f6fff5" stroke="#cdecc7" stroke-width="8"/>
+  <circle cx="250" cy="220" r="68" fill="#ffd89e"/>
+  <rect x="205" y="295" width="90" height="118" rx="28" fill="#7dceff"/>
+  <path d="M460 370c35-140 75-160 135-160" fill="none" stroke="#55b45f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M480 385c16-76 42-108 96-142" fill="none" stroke="#55b45f" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="620" cy="200" r="26" fill="#ff86a0"/>
+  <circle cx="590" cy="250" r="26" fill="#ffd54d"/>
+  <circle cx="560" cy="295" r="26" fill="#9d8cff"/>
+  <path d="M305 315l120 -40" stroke="#ff6478" stroke-width="12" stroke-linecap="round"/>
+  <path d="M120 145l60 60" stroke="#ff6478" stroke-width="18" stroke-linecap="round"/>
+  <path d="M180 145l-60 60" stroke="#ff6478" stroke-width="18" stroke-linecap="round"/>
+  <text x="400" y="145" text-anchor="middle" font-size="46" font-family="Arial, sans-serif" font-weight="700" fill="#cf6f00">Bẻ cành, hái hoa</text>
+  <text x="400" y="545" text-anchor="middle" font-size="38" font-family="Arial, sans-serif" font-weight="700" fill="#d45368">❌ Không nên làm</text>
+</svg>
