@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" rx="36" fill="#ffe7ec"/>
+  <rect x="60" y="80" width="680" height="430" rx="28" fill="#fff" stroke="#ffadb8" stroke-width="8"/>
+  <rect x="150" y="150" width="40" height="260" rx="20" fill="#72c9ff"/>
+  <rect x="610" y="150" width="40" height="260" rx="20" fill="#72c9ff"/>
+  <circle cx="280" cy="210" r="70" fill="#ffd89e"/>
+  <circle cx="400" cy="210" r="70" fill="#ffd89e"/>
+  <circle cx="520" cy="210" r="70" fill="#ffd89e"/>
+  <rect x="235" y="285" width="90" height="120" rx="28" fill="#7fd5ff"/>
+  <rect x="355" y="285" width="90" height="120" rx="28" fill="#ffb4c8"/>
+  <rect x="475" y="285" width="90" height="120" rx="28" fill="#ffe176"/>
+  <path d="M250 175l60 70" stroke="#ff5d73" stroke-width="16" stroke-linecap="round"/>
+  <path d="M550 175l-60 70" stroke="#ff5d73" stroke-width="16" stroke-linecap="round"/>
+  <text x="400" y="120" text-anchor="middle" font-size="44" font-family="Arial, sans-serif" font-weight="700" fill="#d44f62">Chen lấn • Xô đẩy • Chạy nhảy</text>
+  <text x="400" y="470" text-anchor="middle" font-size="38" font-family="Arial, sans-serif" font-weight="700" fill="#d44f62">❌ Không nên làm</text>
+</svg>
